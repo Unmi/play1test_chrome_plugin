@@ -1,0 +1,27 @@
+#plugin_area {
+	float: right;
+	margin-right: 50px;
+}
+
+#plugin_area .on_vpn {
+	background: ;
+	color: #fff;
+	font-size: 120%;
+	border: 1px double #70c111;
+	cursor: pointer;
+	padding: 3px 8px;
+}
+
+#plugin_area .selected {
+	background: #70c111;
+}
+
+.notest a {
+    background: #fafafa;
+    padding: 3px 6px;
+    color: #666;   
+    font-weight: bold;
+    text-decoration: none;   
+    cursor: pointer;  
+    -moz-user-select: none;
+}

@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+	"name": "Play1test Enhance",
+	"version": "1.0",
+	"description": "Play1Test enhancement plugin",
+	"web_accessible_resources": [
+	 	"enhance.css"
+	],
+	"content_scripts":[
+	    {
+		    "matches":["http://localhost:9000/@tests*"],
+			"css":[
+				"enhance.css"
+			],
+			"js":[
+				"jquery.js",
+				"enhance.js"
+			]
+		}
+	]
+}
