@@ -4,7 +4,7 @@ link.rel = 'stylesheet';
 document.documentElement.insertBefore(link);
 
 
-$("#header h1").after($("<div id='plugin_area'><span class='on_vpn'>ON VPN</span></div>"))
+$("#header h1").after($("<div id='plugin_area'><span class='on_vpn'>Work From Home</span></div>"))
 
 var deselectedClasses = [
 	"models.CustomerOccupationTest.class",
